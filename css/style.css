@@ -6,6 +6,9 @@
 a{
     text-decoration: none;
 }
+ul li{
+    list-style: none;
+}
 
 
 
@@ -278,6 +281,67 @@ nav .fas, nav .far{
 .skillCol:hover{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
+
+
+/* -------footer------ */
+
+
+.footer{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    background-color: #06271f;
+    color: rgba(255,255,255, 0.7);
+}
+.leftCol{
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    margin-left: 50px;
+    border-right: 1px solid #b1f8b8;
+}
+.logoName{
+    display: inline-block;
+}
+.leftCol img{
+    width: 50px;
+    float: left;
+    margin-right: 15px;
+}
+.leftCol p{
+    margin: 20px 0;
+    font-size: 13px;
+}
+.rightCol{
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.rightCol h3{
+    margin: 0 0 35px;
+}
+.footerlink{
+    display: flex;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.footerlink i{
+    width: 30px;
+    text-align: center;
+}
+.footerlink a{
+    color: rgba(255,255,255, 0.7);
+    font-size: 15px;
+    margin-left: 15px;
+}
+.footerlink a:hover{
+    color: #b1f8b8;
+}
+
+
 
 
 
